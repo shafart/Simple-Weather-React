@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Simple-Weather-React/static/css/main.b44e00ee.css",
-    "main.js": "/Simple-Weather-React/static/js/main.dc39a9e5.js",
-    "static/media/bg.jpg": "/Simple-Weather-React/static/media/bg.74581dfd904b2e00d417.jpg",
+    "main.css": "/Simple-Weather-React/static/css/main.6b0b8375.css",
+    "main.js": "/Simple-Weather-React/static/js/main.997dfa8d.js",
+    "static/media/bg.jpg": "/Simple-Weather-React/static/media/bg.48d16379b32ef4da7ffa.jpg",
     "index.html": "/Simple-Weather-React/index.html",
-    "main.b44e00ee.css.map": "/Simple-Weather-React/static/css/main.b44e00ee.css.map",
-    "main.dc39a9e5.js.map": "/Simple-Weather-React/static/js/main.dc39a9e5.js.map"
+    "main.6b0b8375.css.map": "/Simple-Weather-React/static/css/main.6b0b8375.css.map",
+    "main.997dfa8d.js.map": "/Simple-Weather-React/static/js/main.997dfa8d.js.map"
   },
   "entrypoints": [
-    "static/css/main.b44e00ee.css",
-    "static/js/main.dc39a9e5.js"
+    "static/css/main.6b0b8375.css",
+    "static/js/main.997dfa8d.js"
   ]
 }
