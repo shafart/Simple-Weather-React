@@ -20,6 +20,11 @@ body {
   border-radius: 10px;
   font-size: 22px;
 }
+@media (max-width: 576px) {
+  .input {
+    width: auto;
+  }
+}
 
 .input:focus {
   outline: none;
@@ -29,22 +34,37 @@ p {
   font-size: 36px;
   line-height: 42px;
   margin: 0;
+
+}
+
+@media (max-width: 576px) {
+  p {
+    font-size: 26px;
+  }
 }
 
 .wrapper {
   background-image: url('./img/bg.jpg');
-  background-position: center;
-  background-size: cover;
+  background-position: right;
   padding: 50px;
   border-radius: 50px;
   background-color: cornflowerblue;
-  width: 500px;
+  max-width: 539px;
   height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
   
+}
+@media (max-width: 576px) {
+  .wrapper {
+    padding: 30px;
+    height: 400px;
+  }
+}
 
+.welcome {
+  margin-top: 25px;
 }
 
 .wrapperResult {
@@ -57,8 +77,25 @@ p {
   font-size: 50px;
   margin: 50px;
 }
+@media (max-width: 576px) {
+  .cityName {
+    font-size: 25px;
+    margin: 25px;
+  }
+}
 
 .cityTemp {
   font-size: 120px;
   margin: 50px 0 100px 0;
+}
+@media (max-width: 576px) {
+  .cityTemp {
+    font-size: 75px;
+    margin: 25px 0 50px 0;
+  }
+}
+
+.cityNotFound {
+  margin-top: 50px;
+  color: #b30000;
 }

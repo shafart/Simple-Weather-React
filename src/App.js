@@ -32,7 +32,7 @@ function App() {
 
     {typeof weatherData.main === 'undefined' ? (
       <div>
-        <p>Welcome to weather app! Enter in a city to get the weather of.</p>
+        <p className='welcome'>Welcome to weather app! Enter in a city to get the weather of.</p>
       </div>
       ) : (
         <div className='wrapperResult'>
@@ -44,7 +44,7 @@ function App() {
     }
 
     {weatherData.cod === '404' ? (
-      <p>City not found</p>
+      <p className='cityNotFound'>City not found</p>
     ) : (
       <>
       </>
